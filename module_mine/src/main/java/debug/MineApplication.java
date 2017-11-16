@@ -1,0 +1,16 @@
+package debug;
+
+
+import com.alibaba.android.arouter.launcher.ARouter;
+import com.credithc.commonlibrary.base.BaseApplication;
+
+public class MineApplication extends BaseApplication {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        ARouter.openDebug();
+        ARouter.openLog();
+        ARouter.init(this);
+    }
+}

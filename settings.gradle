@@ -1,0 +1,1 @@
+include ':app', ':commonlibrary', ':module_welcome', ':module_home', ':module_mine', ':module_loan', ':module_config', ':module_address'

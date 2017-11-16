@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="50px"
+        android:text="贷款页"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btnStartLoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布贷款开始消息"
+            />
+        <Button
+            android:id="@+id/btnFinishLoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布贷款结束消息"
+            />
+        <Button
+            android:id="@+id/btnGetAddressList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取地址列表"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
